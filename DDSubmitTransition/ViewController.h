@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  DDSubmitTransition
+//  sumbitButton
 //
-//  Created by kongxc on 15/11/12.
+//  Created by kongxc on 15/10/19.
 //  Copyright © 2015年 kongxc. All rights reserved.
 //
 

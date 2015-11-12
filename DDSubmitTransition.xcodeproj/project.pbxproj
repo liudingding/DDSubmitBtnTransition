@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		895354181BF47E1300F6C24B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 895354171BF47E1300F6C24B /* main.m */; };
 		8953541B1BF47E1300F6C24B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8953541A1BF47E1300F6C24B /* AppDelegate.m */; };
-		8953541E1BF47E1300F6C24B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8953541D1BF47E1300F6C24B /* ViewController.m */; };
 		895354211BF47E1300F6C24B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8953541F1BF47E1300F6C24B /* Main.storyboard */; };
 		895354231BF47E1300F6C24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895354221BF47E1300F6C24B /* Assets.xcassets */; };
 		895354261BF47E1300F6C24B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895354241BF47E1300F6C24B /* LaunchScreen.storyboard */; };
 		895354311BF47E1300F6C24B /* DDSubmitTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 895354301BF47E1300F6C24B /* DDSubmitTransitionTests.m */; };
 		8953543C1BF47E1300F6C24B /* DDSubmitTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8953543B1BF47E1300F6C24B /* DDSubmitTransitionUITests.m */; };
+		8953544E1BF47E3300F6C24B /* AnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8953544B1BF47E3300F6C24B /* AnimatedTransition.m */; };
+		8953544F1BF47E3300F6C24B /* DDSubmitButtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8953544D1BF47E3300F6C24B /* DDSubmitButtom.m */; };
+		895354551BF47E3E00F6C24B /* fengjing.png in Resources */ = {isa = PBXBuildFile; fileRef = 895354501BF47E3E00F6C24B /* fengjing.png */; };
+		895354561BF47E3E00F6C24B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 895354521BF47E3E00F6C24B /* SecondViewController.m */; };
+		895354571BF47E3E00F6C24B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 895354541BF47E3E00F6C24B /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		895354171BF47E1300F6C24B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		895354191BF47E1300F6C24B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8953541A1BF47E1300F6C24B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8953541C1BF47E1300F6C24B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8953541D1BF47E1300F6C24B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		895354201BF47E1300F6C24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		895354221BF47E1300F6C24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		895354251BF47E1300F6C24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,15 @@
 		895354371BF47E1300F6C24B /* DDSubmitTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDSubmitTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8953543B1BF47E1300F6C24B /* DDSubmitTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDSubmitTransitionUITests.m; sourceTree = "<group>"; };
 		8953543D1BF47E1300F6C24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8953544A1BF47E3300F6C24B /* AnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTransition.h; sourceTree = "<group>"; };
+		8953544B1BF47E3300F6C24B /* AnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTransition.m; sourceTree = "<group>"; };
+		8953544C1BF47E3300F6C24B /* DDSubmitButtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSubmitButtom.h; sourceTree = "<group>"; };
+		8953544D1BF47E3300F6C24B /* DDSubmitButtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSubmitButtom.m; sourceTree = "<group>"; };
+		895354501BF47E3E00F6C24B /* fengjing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fengjing.png; sourceTree = "<group>"; };
+		895354511BF47E3E00F6C24B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		895354521BF47E3E00F6C24B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		895354531BF47E3E00F6C24B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		895354541BF47E3E00F6C24B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +112,15 @@
 		895354151BF47E1300F6C24B /* DDSubmitTransition */ = {
 			isa = PBXGroup;
 			children = (
+				895354491BF47E3300F6C24B /* sumbitButton */,
 				895354191BF47E1300F6C24B /* AppDelegate.h */,
 				8953541A1BF47E1300F6C24B /* AppDelegate.m */,
-				8953541C1BF47E1300F6C24B /* ViewController.h */,
-				8953541D1BF47E1300F6C24B /* ViewController.m */,
 				8953541F1BF47E1300F6C24B /* Main.storyboard */,
+				895354501BF47E3E00F6C24B /* fengjing.png */,
+				895354511BF47E3E00F6C24B /* SecondViewController.h */,
+				895354521BF47E3E00F6C24B /* SecondViewController.m */,
+				895354531BF47E3E00F6C24B /* ViewController.h */,
+				895354541BF47E3E00F6C24B /* ViewController.m */,
 				895354221BF47E1300F6C24B /* Assets.xcassets */,
 				895354241BF47E1300F6C24B /* LaunchScreen.storyboard */,
 				895354271BF47E1300F6C24B /* Info.plist */,
@@ -138,6 +153,17 @@
 				8953543D1BF47E1300F6C24B /* Info.plist */,
 			);
 			path = DDSubmitTransitionUITests;
+			sourceTree = "<group>";
+		};
+		895354491BF47E3300F6C24B /* sumbitButton */ = {
+			isa = PBXGroup;
+			children = (
+				8953544A1BF47E3300F6C24B /* AnimatedTransition.h */,
+				8953544B1BF47E3300F6C24B /* AnimatedTransition.m */,
+				8953544C1BF47E3300F6C24B /* DDSubmitButtom.h */,
+				8953544D1BF47E3300F6C24B /* DDSubmitButtom.m */,
+			);
+			path = sumbitButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +272,7 @@
 				895354261BF47E1300F6C24B /* LaunchScreen.storyboard in Resources */,
 				895354231BF47E1300F6C24B /* Assets.xcassets in Resources */,
 				895354211BF47E1300F6C24B /* Main.storyboard in Resources */,
+				895354551BF47E3E00F6C24B /* fengjing.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8953541E1BF47E1300F6C24B /* ViewController.m in Sources */,
+				895354571BF47E3E00F6C24B /* ViewController.m in Sources */,
+				895354561BF47E3E00F6C24B /* SecondViewController.m in Sources */,
+				8953544E1BF47E3300F6C24B /* AnimatedTransition.m in Sources */,
 				8953541B1BF47E1300F6C24B /* AppDelegate.m in Sources */,
+				8953544F1BF47E3300F6C24B /* DDSubmitButtom.m in Sources */,
 				895354181BF47E1300F6C24B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
